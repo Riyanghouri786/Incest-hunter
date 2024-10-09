@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Incest-Hunter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      id="gameName"
+      style="
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      "
+    >
+      <h1
+        style="
+          border: 2px solid black;
+          padding: 10px 20px;
+          border-radius: 50px;
+          background: linear-gradient(135deg, #f0f0f0, #ddd);
+          font-family: 'Arial', sans-serif;
+          font-size: 30px;
+          letter-spacing: 4px;
+          text-transform: uppercase;
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+          display: inline-block;
+          cursor: pointer;
+        "
+      >
+        Insect
+        <span
+          style="
+            color: red;
+            text-shadow: 3px 3px 6px rgba(255, 0, 0, 0.5);
+            font-weight: bold;
+          "
+          >Hunter</span
+        >
+      </h1>
+    </div>
+    <div>
+      <div
+        id="heading"
+        style="display: flex; justify-content: space-around; visibility: hidden"
+      >
+        <h1 style="visibility: visible">
+          Best Score: <span id="bestScore">0</span>
+        </h1>
+        <h1 id="time">Time:00</h1>
+      </div>
+      <h1 id="kill" style="visibility: hidden">
+        Score: <span id="score">0</span>
+      </h1>
+    </div>
+    <div id="gameArea" class="game-area">
+      <button id="start">Play</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
